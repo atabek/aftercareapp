@@ -1,24 +1,35 @@
 {{template "header"}}
-<div id="top">
-    <header>
-        <i class="fa fa-heart-o fa-3x"></i>
-        <nav>
-            <a href="/login"><p id="login">Log In</p></a>
-        </nav>
-    </header>
-    <p id="motto">Seven Deadly Sins</p>
-    <p id="motto">One convenient location</p>
 
+<div class="container">
+  <h2>Contextual Classes</h2>
+  <p>Contextual classes can be used to color table rows or table cells.
+      The classes that can be used are: .active, .success, .info, .warning, and .danger.</p>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="success">
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr class="danger">
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr class="info">
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-<main>
-    <section>
-        <i class="fa fa-user fa-2x"></i>
-        <p id="post">post</p>
-    </section>
-    <section>
-        <i class="fa fa-user fa-2x"></i>
-        <p id="post">post</p>
-    </section>
-</main>
 {{template "footer"}}
